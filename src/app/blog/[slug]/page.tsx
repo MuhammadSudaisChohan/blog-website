@@ -37,7 +37,7 @@ const BlogArticle = async ({ params }: { params: { slug: string } }) => {
         className="rounded-lg mt-8"
       />
       <div className="mt-16 prose prose-blue prose-xl dark:prose-invert prose-li:marker:text-primary prose-a:text-primary">
-        <PortableText value={data.content}/>
+        <PortableText  value={data.content}/>
       </div>
     </div>
   );
