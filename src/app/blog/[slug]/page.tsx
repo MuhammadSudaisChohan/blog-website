@@ -17,6 +17,7 @@ async function getData(slug: string) {
 
 const BlogArticle = async ({ params }: { params: { slug: string } }) => {
   const data: FullBlog = await getData(params.slug);
+  
   return (
     <div className="mt-8">
       <h1>
